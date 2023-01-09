@@ -19,6 +19,355 @@
       </div>
 
       <h2>Rooli frontend kehittäjänä</h2>
+
+      <h3 class="underline">Käyttämäni teknologiat</h3>
+
+      <ul>
+        <li>Angular</li>
+        <ul>
+          <li>Sovelluksen ohjelmistokehys</li>
+          <li>
+            Aiempaa kokemusta parilta kurssilta tehtävien ja demojen muodossa
+          </li>
+          <li>Ohjelmointikielinä tutut HTML, CSS ja TypeScript</li>
+        </ul>
+        <li>Tailwind CSS</li>
+        <ul>
+          <li>Valittu CSS Framework</li>
+        </ul>
+        <li>Angular Material</li>
+        <ul>
+          <li>UI komponenttikirjasto</li>
+          <li>Yhdessä Tailwindin kanssa uusia tuttavuuksia</li>
+        </ul>
+        <li>Figma ja Canva</li>
+        <ul>
+          <li>UI/UX suunnittelun ja muun graafisen tuotannon työkaluja</li>
+        </ul>
+      </ul>
+
+      <h3 class="underline">Esituotanto</h3>
+      <img src="./images/Screenshot 2023-01-09 at 12-25-03 Figma.png" />
+
+      <ul>
+        <li>
+          Esituotannon loppu ja tuotannon alkuvaihe keskittyi Figmassa
+          sovelluksen suunnitteluun.
+        </li>
+        <li>
+          Keskityin suunnittelemaan sovelluksen rungon ja päätoiminnallisuudet,
+          että sitä voitaisiin testata ennen tuotannon alkua käyttäjillä.
+        </li>
+        <li>
+          Ulkoasuun ei vielä keskitytty niin tarkasti, sillä sen toteutuksesta
+          oli vielä paljon ideoita ilmassa.
+        </li>
+        <li>
+          Tässä vaiheessa opettelin kuitenkin käyttämään Figman pluginia
+          nimeltään TeleportHQ.
+        </li>
+        <ul>
+          <li>
+            TeleportHQ pystyi viemään Figmasta kokonaisia layoutteja, jotka se
+            käänti suoraan HTML ja CSS kielille tarpeen mukaan.
+          </li>
+          <li>
+            Layoutteihin pystyi lisäämään elementtejä vielä TeleportHQ:ssa.
+          </li>
+          <li>
+            Mahdollisuus kääntää suoraan valmiita komponentteja Angularille.
+          </li>
+          <li>
+            Käännetty koodi oli kuitenkin hyvin raskasta ja "turhaa" koodia
+            olisi tullut paljon verrattuna itse koodattuun.
+          </li>
+          <li>
+            Lisäksi myöhemmin päädyttiin käyttämään CSS frameworkiä ja UI
+            kirjastoa joten tarvetta tälle ominaisuudelle ei enää ollut.
+          </li>
+        </ul>
+      </ul>
+
+      <hr class="hrstyle" />
+
+      <h3 class="underline">Tuotannon alku</h3>
+
+      <ul>
+        <li>
+          Ensimmäisen sprintin tavoite oli saada frontend siihen kuntoon, että
+          komponentit päätoiminnallisuudelle löytyy (ks. Figma kuva).
+        </li>
+        <li>
+          Tässä vaiheessa sovellus oli kirjoitettu puhtaasti pelkää HTML ja CSS
+          käyttäen.
+        </li>
+        <li>
+          Myös TeleportHQ:ta oli testattu ensimmäiseen versioon sen verran, että
+          Figman mukaiset napit oli tuotettu sitä käyttäen.
+        </li>
+        <li>
+          Suunniteltujen toiminnallisuuksien valossa totesimme kuitenkin UI
+          tiimin kesken että jollekkin CSS kirjastolle olisi käyttöä.
+        </li>
+      </ul>
+
+      <h3 class="underline">Tailwind</h3>
+
+      <img src="./images/tailwindexample.png" />
+
+      <ul>
+        <li>CSS Frameworkiksi valikoitui Tailwind CSS useastakin syystä:</li>
+        <ul>
+          <li>
+            Ei aiempaa kokemusta, haluttiin oppia ja käyttää muutakin kuin
+            Bootstrap
+          </li>
+          <li>Hyvä kehittäjän ja yhteisön tuki</li>
+        </ul>
+        <li>
+          Tailwind tarjosi hyvä tasapainon valmiiden luokkien ja omien "custom"
+          luokkien välillä:
+        </li>
+        <ul>
+          <li>
+            Elementit kuten buttonit ja inputit pystyi tyylittelemään vapaasti
+            globaaliin styles tiedostoon, josta niitä oli helppo käyttää inline
+            koodina kaikissa komponenteissa.
+          </li>
+          <li>
+            Komponenttien rakenteeseen ja responsiivisuuteen liittyvät luokat
+            sai suoraan Tailwindin omista luokista.
+          </li>
+          <li>
+            Ei pakottanut käyttämään mitään tiettyjä värejä tai fontteja, vaan
+            ne sai kustomoitua vapaasti.
+          </li>
+          <li>
+            Myöhemmin hyödylliseksi osoittautui myös Tailwindillä onnistuva
+            darktheme:
+          </li>
+        </ul>
+      </ul>
+      <img src="./images/darktheme.png" />
+
+      <hr class="hrstyle" />
+
+      <h3 class="underline margintop">Angular Material</h3>
+
+      <ul>
+        <li>
+          Angular Material UI kirjasto tarjosi komponentteja joiden käyttäminen
+          säästi aikaa ja tarjosi lisää toiminnallisuutta.
+        </li>
+        <li>
+          Vaati importoinnin app moduleihin, haluttuun komponenttiin ja
+          elementin käytön HTML:ssä.
+        </li>
+      </ul>
+
+      <div class="photogrid">
+        <img class="pgitem" src="./images/menu.png" />
+        <img class="pgitem" src="./images/menuirl.png" />
+      </div>
+
+      <ul>
+        <li>
+          Dialogia varten täytyi vaan luoda oma komponentti sen sisällölle, ja
+          sen jälkeen kutsua sitä haluamastaan komponentista.
+        </li>
+      </ul>
+
+      <img src="./images/dialog.png" />
+
+      <hr class="hrstyle" />
+
+      <h3 class="underline margintop">Angularin omat materiaalit</h3>
+
+      <ul>
+        <li>
+          Normaalin HTML koodin lisäksi Angularin tarjoamista materiaaleista
+          käyttöä oli:
+        </li>
+        <ul>
+          <li>Animaatioille</li>
+          <li>NgIf conditional rendering</li>
+        </ul>
+      </ul>
+
+      <ul>
+        <li>
+          NgIf käytin komponenteissa, joissa lisäsisällöllä ei haluttu viedä
+          tilaa, mutta käyttäjä saisi ne auki kilkkaamalla.
+        </li>
+        <li>
+          Yksinkertainen funktio joka muutti boolean arvoa kun elementtiä tai
+          buttonia klikattiin käyttöliittymässä, joka taas renderoi sisällön
+          arvon mukaan.
+        </li>
+      </ul>
+
+      <img src="./images/ngifFunc.png" />
+      <img class="margintop" src="./images/ngifHtml.png" />
+
+      <ul>
+        <li>
+          Angularin animaatiot olivat uusi tuttavuus ja niiden käyttö oli
+          helppoa vaikka logiikka näyttikin aluksi vaikealta.
+        </li>
+        <li>
+          Yksinkertaisuudessaan on triggeri, joka aktivoituessaan hoitaa
+          animaation.
+        </li>
+        <li>
+          Triggerin aktivoi isOpen määritelmän vaihtuminen, jota taas vaihtaa
+          onClick tapahtuma nimeltään toggle.
+        </li>
+      </ul>
+
+      <img src="./images/animation1.png" />
+      <img class="margintop" src="./images/animation2.png" />
+      <img class="margintop" src="./images/animation3.png" />
+
+      <hr class="hrstyle" />
+
+      <h3 class="underline">Sovelluksen ulkoasun kehittymisestä</h3>
+
+      <div class="photogrid">
+        <img
+          class="pgitem2"
+          src="./images/Screenshot 2023-01-09 at 13-02-38 Huutoapp.png"
+        />
+        <img
+          class="pgitem2"
+          src="./images/Screenshot 2023-01-09 at 13-03-37 Huutoapp.png"
+        />
+      </div>
+
+      <ul>
+        <li>
+          Ensimmäiseen Project checkup:iin asteli aika tylsä mutta samaan aikaan
+          huomiota ja keskustelua herättävä Votea.
+        </li>
+        <li>
+          Syy siihen oli selkeä: tiimissä tapahtuneiden poissaolojen takia
+          backend ja frontend olivat 2v1 asetelmassa.
+        </li>
+        <ul>
+          <li>
+            Backend oli päässyt vauhtiin, ja vauhtia piti pitää myös frontin
+            puolella, joten ulkoasun sijaan työtunnit käytettiin siihen, että
+            komponentit ja niiden toiminnallisuudet saatiin siihen kuntoon että
+            niihin pystyisi saumatta yhdistämään backendin.
+          </li>
+        </ul>
+        <li>
+          TCHOPS:ssa mainitut unelmat kehittyä sisällöntuotossa ja visuaalisessa
+          suunnittelussa olivat viimeisen parin kuukauden aikana nähneet aika
+          rajusti kirvestä.
+        </li>
+      </ul>
+
+      <div class="threegrid">
+        <img
+          class="threegriditem"
+          src="./images/Screenshot_20230109_131044.jpg"
+        />
+        <img
+          class="threegriditem"
+          src="./images/Screenshot_20230109_130935.jpg"
+        />
+        <img
+          class="threegriditem"
+          src="./images/Screenshot_20230109_130905.jpg"
+        />
+      </div>
+
+      <ul>
+        <li>
+          Viimeiseen Project checkup:iin mennessä savu oli hieman laskenut ja
+          Votea alkoi näyttää mobiilisovellukselta.
+        </li>
+        <li>
+          Otin aiempien checkuppien palautteen huomioon ja sovellus oli siinä
+          tilanteessa että kerkesin käyttää aikaa esimerkiksi:
+        </li>
+        <ul>
+          <li>Buttonien, checkboxien, inputien ja fonttien kokoon.</li>
+          <li>Värimaailmaan ja niiden kontrasteihin.</li>
+          <li>Elementtien asetteluun tila ja käytettävyys huomioiden.</li>
+          <li>Responsiivisuus.</li>
+        </ul>
+        <li>
+          Käytettävyyden ja värien osalta tutustuin tarkemmin Web Content
+          Accessabilty Guidelineseihin (WCAG).
+        </li>
+        <li>
+          Lopulta sovellus oli fonttien, värien, ja elementtien osalta
+          saavutettavuusluokitukseltaan vähintään AA.
+        </li>
+      </ul>
+
+      <hr class="hrstyle" />
+
+      <h3 class="underline">Reflektio-osuus</h3>
+
+      <ul>
+        <li>
+          Oli onni onnettomuudessa että TCHOPS:in tavoite kehittyä visuaalisessa
+          suunnittelussa ja sisällöntuotossa ei mennytkään kuinka halusin.
+        </li>
+        <li>
+          Koen, että HTML:n ja CSS:n koodauksen lisäksi opin ja sain paljon
+          enemmän irti siitä, että pääsin koodaamaan myös toiminnallisuutta ja
+          logiikkaa frontendissä.
+        </li>
+        <ul>
+          <li>
+            Vaikka koodi ei itsessään ole vielä mitään perustasoa
+            kummallisempaa, niin mielenkiinto kehittyä siinä paremmaksi heräsi.
+          </li>
+        </ul>
+        <li>
+          Hyvä oli myös huomata, että oma preferenssi olisi työskennellä
+          tehdessä asiatyylisiä sovelluksia/nettisivuja ja jättää tällaiset
+          värikkäät ja visuaalisesti näyttävät sovellukset jollekkin minua
+          luovemmalle.
+        </li>
+        <li>
+          Frontendin parissa näen itseni joka tapauksessa joskus työskentelevän.
+          Siihen vaaditaan vielä töitä ja harjoittelua ihan peruskoodauksenki
+          parissa. Lisäksi olisi mielenkiintoista opetella joitain muitakin
+          frameworkejä, kuten vaikka React tai Vue.
+        </li>
+      </ul>
+
+      <h3 class="underline">Sovelluksen logo/ikoni</h3>
+      <ul>
+        <li>
+          Graafisen suunnittelun ja sisällöntuoton hommia pääsin tekemään sen
+          verran että valmistin sovellukselle logon.
+        </li>
+        <li>
+          Tähän käytin Canvaa, joka ilmaiseksi sovellukseksi osoittauti
+          yllättävän hyväksi, jos tarvitsee suunnitella yksinkertainen logo.
+        </li>
+        <li>
+          Vaihtoehtoja syntyi useampi joista viimeinen valittiin tiimin kanssa
+          käyttöön sovelluksessa, PWA-ikonina ja markkinoinnin puolella.
+        </li>
+      </ul>
+
+      <div class="logogrid">
+        <img class="logos" src="./images/votealogo1.png" />
+        <img class="logos" src="./images/Votea2.png" />
+        <img class="logos" src="./images/votealogo2.3.png" />
+      </div>
+
+      <a class="back" href="./koodi.html">Alkuun &#8593;</a>
     </div>
+    <footer class="foot">
+      <p class="name">Severi Natunen</p>
+      <p class="post">AA4352@student.jamk.fi</p>
+    </footer>
   </body>
 </html>

@@ -31,6 +31,10 @@ body {
   margin-right: 16px;
 }
 
+.margintop {
+  margin-top: 24px;
+}
+
 .navitem {
   font-size: 18px;
 }
@@ -43,4 +47,66 @@ body {
   justify-self: end;
   margin-bottom: 16px;
   font-size: 18px;
+}
+
+.photogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pgitem {
+  justify-self: center;
+  align-self: center;
+}
+
+.pgitem2 {
+  justify-self: center;
+  align-self: center;
+  height: 450px;
+  width: auto;
+}
+
+.hrstyle {
+  width: 700px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-self: center;
+  align-self: center;
+}
+
+.threegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.threegriditem {
+  justify-self: center;
+  align-self: center;
+  height: 450px;
+  width: auto;
+}
+
+.logogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.logos {
+  height: 300px;
+  width: auto;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  border-right: solid 1px black;
+  padding-right: 4px;
+}
+
+.post {
+  padding-left: 4px;
 }
