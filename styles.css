@@ -6,3 +6,41 @@ li {
   font-size: 18px;
   padding: 4px;
 }
+
+body {
+  display: grid;
+}
+
+.container {
+  width: 1000px;
+  justify-self: center;
+  display: grid;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.nav {
+  justify-self: end;
+}
+
+.margin {
+  margin-right: 16px;
+}
+
+.navitem {
+  font-size: 18px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.back {
+  justify-self: end;
+  margin-bottom: 16px;
+  font-size: 18px;
+}

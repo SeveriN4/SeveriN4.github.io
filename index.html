@@ -8,188 +8,224 @@
     <title>TC 9 Portfolio</title>
   </head>
   <body>
-    <h1>Ticorporate 9 portfolio</h1>
+    <div class="container">
+      <div class="header">
+        <h1>Ticorporate 9 portfolio</h1>
 
-    <h3>Severi Natunen</h3>
+        <nav class="nav">
+          <a class="margin navitem" href="./index.html">Product Owner</a>
+          <a class="navitem" href="./koodi.html">Frontend kehitys</a>
+        </nav>
+      </div>
 
-    <h2>Product Owner:n rooli</h2>
+      <h2>Product Ownerin rooli</h2>
 
-    <h3>Yleisesti Backlogista</h3>
-    <ul>
-      <li>
-        Projektin alussa tuntui, että projektissa jossa ei ole "oikeaa"
-        asiakasta, ei myöskään Product Ownerin rooli ole niin merkittävä.
-        <ul>
-          <li>
-            Ei asiakasta, visio on tiimin oma, ei tarvetta kommunikaatiolle
-            kehittäjien ja asiakkaan välillä.
-          </li>
-        </ul>
-      </li>
-      <li>
-        Projektia lähdettiin työstämään waterfall-tyylisesti ja melko vapaalla
-        kädellä, joka johti...
-      </li>
-    </ul>
+      <h3 class="underline">Roolista ja backlogista yleisesti</h3>
 
-    <img src="./images/Screenshot 2023-01-08 at 14-34-30 Zenhub.png" />
-
-    <ul>
-      <li>
-        Backlog itemit olivat hyvin laajoja käsitteitä, esimerkiksi kokonainen
-        näkymä toimintoineen.
-      </li>
-      <li>
-        Acceptance criteria antaa ymmärtää, että pelkkä elementtien paikallaan
-        oleminen riittää, vaikka backlog itemillä tarkoitettiin myös niiden
-        toiminnallisuutta.
-      </li>
-      <li>
-        Kun itemi siirtyi tuotantoon, työnteon aloittaminen viivästyi, koska
-        kokonaisuus oli niin suuri, että pelkkästään selvitystyöhön siitä mitä
-        pitäisi oikeasti tehdä meni aikaa.
-      </li>
-      <li>
-        Ja kun itemiä alettiin vihdoin työstämään, Acceptance criteriat eivät
-        tukeneet sen edistymisen seurantaa ollenkaan.
-      </li>
-    </ul>
-
-    <h3>Kuinka asia korjattiin?</h3>
-
-    <ul>
-      <li>
-        Ongelma tunnistettiin Retrospectiven aikana, kun parin sprintin jälkeen
-        samat suuret backlog itemit jäivät roikkumaan Sprint Backlogiin.
-      </li>
-      <li>
-        Sprint Planningiin enemmän aikaa ja otin vastuun siitä, että backlogiin
-        laitettavat itemit olivat:
-        <ul>
-          <li>
-            Riittävän pieniä, esimerkiksi yksi lambdafunktio backendissä tai
-            elementti ja sen toiminnallisuus frontissa.
-          </li>
-          <li>
-            Kaikille selviä, työaikaa ei enää kuluisi siihen, että itemi
-            jouduttaisiin selvittämään kahteen kertaan (spiket tietenkin
-            erikseen).
-          </li>
-          <li>
-            Acceptance criteriat voi ymmärtää vain yhdellä tapaa ja ne auttoivat
-            seuraamaan itemin edistymistä.
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <img src="./images/Screenshot 2023-01-08 at 15-16-29 Zenhub.png" />
-
-    <ul>
-      <li>
-        Tähän mennessä olin oppinut Backlog Refinementista, joka meidän
-        tiimissämme muotoutui Refinement Monday:ksi.
-        <ul>
-          <li>
-            Jokaisen sprintin toinen maanantai pidin Backlog Refinement
-            tilaisuuden, joka kesti noin aamupäivän verran.
-          </li>
-          <li>
-            Koko tiimin voimin kokoonuimme katsomaan Sprint Backlogissa olevia
-            itemejä.
-          </li>
-          <li>
-            Jos Sprint Planningissa oli backlogiin jäänyt itemi, joka ei ollut
-            uusien kriteereiden tasolla, se tuotiin tässä esille ja korjattiin.
-          </li>
-          <li>
-            Kaikilla oli myös mahdollisuus tuoda esille uusia itemejä, jos
-            sellaisia oli keksinyt.
-          </li>
-          <li>
-            Lopuksi otin vastuun siitä, että nosetettaisiinko uusia itemejä
-            Sprint Backlogiin (tukevatko ne sprintin tavoitetta tai visiota
-            ollenkaan?) tai joudutaanko jotain pudottamaan Product Backlogiin.
-          </li>
-        </ul>
-      </li>
-    </ul>
-
-    <h3>Product Ownerina toimiminen selkeytyi</h3>
-
-    <img src="./images/Screenshot 2023-01-08 at 16-20-31 Zenhub.png" />
-
-    <ul>
-      <li>
-        Vaikka projektin alussa tuntui, ettei PO:n rooli ole merkittävä, niin:
-      </li>
       <ul>
         <li>
-          Ymmärsin, että vaikka tuotteella ei ole asiakasta, jonkun pitää pystyä
-          katsomaan tuotetta ulkopuolisen näkökulmasta ja määrittämään mikä on
-          sen kehityksen kannalta merkittävää ja mikä ei.
+          Projektin alussa tuntui, että projektissa jossa ei ole "oikeaa"
+          asiakasta, ei myöskään Product Ownerin rooli ole niin merkittävä.
+          <ul>
+            <li>
+              Ei asiakasta, visio on tiimin oma, ei tarvetta kommunikaatiolle
+              kehittäjien ja asiakkaan välillä.
+            </li>
+          </ul>
         </li>
         <li>
-          Esimerkkinä backlog itemit (ks. yllä) jotka eivät tuo tuotteelle
-          mitään lisäarvoa, vaan ovat ideoidessa lisätty vaan tekemisen
-          kannalta.
-        </li>
-        <li>
-          Projektin alun waterfall-meininki johtuikin juuri tästä, kun haluttiin
-          vaan päästä koodaamaan valmis sovellus enkä niinkään miettinyt,
-          millaista sitä olisi käyttää.
-        </li>
-        <li>
-          Tämän jälkeen muut tiimin jäsenet tulivat avoimemmin kysymään
-          mielipidettäni tuotteen kehityksen aikana.
-        </li>
-        <li>
-          Turhia itemejä heitettiin ice boxiin ja priorisoin tuotetta edistävät
-          itemit, jolla oli varmasti osansa siihen että sovellus tuli valmiiksi.
+          Projektia lähdettiin työstämään vesiputousmaiseen tapaan, joka
+          johti...
         </li>
       </ul>
-    </ul>
 
-    <h2>Yleisesti muusta PO toiminnasta</h2>
+      <img src="./images/Screenshot 2023-01-08 at 14-34-30 Zenhub.png" />
 
-    <h3>User Story Mapping</h3>
+      <ul>
+        <li>
+          Backlog itemit olivat hyvin laajoja käsitteitä, esimerkiksi kokonainen
+          näkymä toimintoineen.
+        </li>
+        <li>
+          Acceptance criteria antaa ymmärtää, että pelkkä elementtien paikallaan
+          oleminen riittää, vaikka backlog itemillä tarkoitettiin myös niiden
+          toiminnallisuutta.
+        </li>
+        <li>
+          Kun itemi siirtyi tuotantoon, työnteon aloittaminen pitkittyi, koska
+          kokonaisuus oli niin suuri, että pelkästään selvitystyöhön siitä mitä
+          pitäisi oikeasti tehdä meni aikaa ja kynnys aloittaa oli liian suuri.
+        </li>
+        <li>
+          Ja kun itemiä alettiin vihdoin työstämään, Acceptance criteriat eivät
+          tukeneet sen edistymisen seurantaa ollenkaan.
+        </li>
+      </ul>
 
-    <img src="./images/usm.png" />
+      <h3 class="underline">Kuinka asia korjattiin?</h3>
 
-    <ul>
-      <li>
-        User Story Mapping tuli esille vähän liian myöhään, että sen
-        hyödyllisyyden olisi tajunnut kokonaisuudessaan.
+      <ul>
+        <li>
+          Ongelma tunnistettiin Retrospectiven aikana, kun parin sprintin
+          jälkeen samat suuret backlog itemit jäivät roikkumaan Sprint
+          Backlogiin.
+        </li>
+        <li>
+          Sprint Planningiin enemmän aikaa ja otin vastuun siitä, että
+          backlogiin laitettavat itemit olivat:
+          <ul>
+            <li>
+              Riittävän pieniä, esimerkiksi yksi lambdafunktio backendissä tai
+              elementti ja sen toiminnallisuus frontissa.
+            </li>
+            <li>
+              Kaikille selviä, työaikaa ei enää kuluisi siihen, että itemi
+              jouduttaisiin selvittämään kahteen kertaan (spiket tietenkin
+              erikseen).
+            </li>
+            <li>
+              Acceptance criteriat voi ymmärtää vain yhdellä tapaa ja ne
+              auttoivat seuraamaan itemin edistymistä.
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <img src="./images/Screenshot 2023-01-08 at 15-16-29 Zenhub.png" />
+
+      <ul>
+        <li>
+          Tähän mennessä olin oppinut Backlog Refinementista, josta meidän
+          tiimissämme tuli "Refinement Monday".
+          <ul>
+            <li>
+              Jokaisen sprintin toinen maanantai pidin Backlog Refinement
+              tilaisuuden, joka kesti noin aamupäivän verran.
+            </li>
+            <li>
+              Koko tiimin voimin kokoonuimme katsomaan Sprint Backlogissa olevia
+              itemejä.
+            </li>
+            <li>
+              Jos Sprint Planningissa oli backlogiin eksynyt itemi, joka ei
+              ollut uusien kriteereiden mukainen, se tuotiin tässä esille ja
+              korjattiin.
+            </li>
+            <li>
+              Kaikilla oli myös mahdollisuus tuoda esille uusia itemejä, jos
+              sellaisia oli keksinyt.
+            </li>
+            <li>
+              Lopuksi otin vastuun siitä, että nostettaisiinko uusia itemejä
+              Sprint Backlogiin (tukevatko ne sprintin tavoitetta tai tuotteen
+              visiota ollenkaan?) tai joudutaanko jotain pudottamaan Product
+              Backlogiin.
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 class="underline">Product Ownerina toimiminen selkeytyi</h3>
+
+      <img src="./images/Screenshot 2023-01-08 at 16-20-31 Zenhub.png" />
+
+      <ul>
+        <li>
+          Vaikka projektin alussa tuntui, ettei PO:n rooli ole merkittävä juuri
+          tässä projektissa, niin:
+        </li>
         <ul>
           <li>
-            Ensimmäinen Project Checkup ja Release oli jo käsillä, kun opin User
-            Story Mappingistä.
+            Ymmärsin, että vaikka tuotteella ei ole asiakasta, jonkun pitää
+            pystyä katsomaan tuotetta ulkopuolisen näkökulmasta ja määrittämään
+            mikä on sen kehityksen kannalta merkittävää ja mikä ei.
+          </li>
+          <li>
+            Esimerkkinä backlog itemit (ks. yllä) jotka eivät tuo tuotteelle
+            mitään lisäarvoa, vaan ovat ideoidessa jääneet backlogiin.
+          </li>
+          <li>
+            Projektin alun vesiputous-meininki johtuikin juuri tästä, kun
+            haluttiin vaan päästä koodaamaan valmis sovellus enkä niinkään
+            miettinyt, millaista sitä olisi käyttää.
+          </li>
+          <li>
+            Tämän jälkeen muut tiimin jäsenet tulivat avoimemmin kysymään
+            mielipidettäni tuotteen kehitykseen liittyen.
+          </li>
+          <li>
+            Turhia itemejä heitettiin ice boxiin ja priorisoin tuotteen vision
+            mukaiset itemit, jolla oli varmasti osansa siihen että sovellus tuli
+            valmiiksi.
           </li>
         </ul>
-      </li>
-      <li>
-        Kahden viimeisen Releasen ja niiden sisältämien sprintien suunnitteluun
-        se tarjosi kuitenkin jo vähän apua.
+      </ul>
+
+      <h2>Yleisesti PO toiminnasta</h2>
+
+      <h3 class="underline">User Story Mapping</h3>
+
+      <img src="./images/usm.png" />
+
+      <ul>
+        <li>
+          User Story Mapping tuli esille vähän liian myöhään, että sen
+          hyödyllisyyden olisi tajunnut kokonaisuudessaan.
+          <ul>
+            <li>
+              Ensimmäinen Project Checkup ja Release oli jo käsillä, kun opin
+              User Story Mappingistä.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Kahden viimeisen Releasen ja niiden sisältämien sprintien
+          suunnitteluun se tarjosi kuitenkin jo vähän apua.
+          <ul>
+            <li>
+              Release kohtaisesti mietin, minkälaiset User taskit toisivat
+              tarpeellista lisätoiminnallisuutta tuotteelle.
+            </li>
+            <li>
+              Kun release kohtaiset User taskit olivat paikallaan, esittelin ne
+              Sprint Planningissa.
+            </li>
+            <li>
+              Sprint Planningin aikana luotiin uusia backlog itemeitä, jotka
+              tulisi tehdä, että User Taskin voisi toteuttaa sovelluksessa.
+            </li>
+            <li>
+              Esimerkkinä anonyymin äänestyksen luominen Release 2:ssa, mitä
+              vaatii backendiltä ja frontilta, mitä eroja huoneen luojalla ja
+              huoneeseen liittyjällä.
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 class="underline">Product Ownerina tässä projektissa</h3>
+      <ul>
+        <li>
+          Osalti PO:n tehtävien vähäinen määrä johtui liian "helposta" tiimistä
+        </li>
         <ul>
-          <li>
-            Release kohtaisesti mietin, minkälaiset User taskit toisivat
-            tarpeellista lisätoiminnallisuutta tuotteelle.
-          </li>
-          <li>
-            Kun release kohtaiset User taskit olivat paikallaan, esittelin ne
-            Sprint Planningissa.
-          </li>
-          <li>
-            Sprint Planningin aikana luotiin uusia backlog itemeitä, jotka
-            tulisi tehdä, että User Taskin voisi toteuttaa sovelluksessa.
-          </li>
-          <li>
-            Esimerkkinä anonyymin äänestyksen luominen Release 2:ssa, mitä
-            vaatii backendiltä ja frontilta, mitä eroja huoneen luojalla ja
-            huoneeseen liittyjällä.
-          </li>
+          <li>Pieni ja tiivis tiimi ei vaatinut kommunikaatioon välikättä</li>
+          <li>Kolme neljästä ryhmäläisestä oli konseptoinnista asti mukana</li>
         </ul>
-      </li>
-    </ul>
+        <li>
+          Suurimmaksi ongelmaksi osoittautui oma tekninen taitotaso, aina ei
+          osannut auttaa muuten kuin olemalla henkinen tuki
+        </li>
+        <li>
+          Erilaisessa ryhmässä voisin olla liian taipuvainen joka voisi johtaa
+          tuotteen vision vastaisiin ratkaisuihin
+        </li>
+        <li>
+          Hyötyä oli taidosta löytää ratkaisuja ja kompromisseja tilanteessa
+          kuin tilanteessa
+        </li>
+      </ul>
+      <a class="back" href="./index.html">Alkuun &#8593;</a>
+    </div>
   </body>
 </html>
